@@ -12,7 +12,7 @@ https://coolors.co/70a1d7-3d0024-00241b-bcd8c1-fed766
 :root {
   /* change the values below to your colors from your palette */
   --primary-color: #3D0024  ;
-  --secondary-color: #70A1D7 ;
+  --secondary-color: #FED766 ;
   --accent1-color: #00241B;
   --accent2-color: #BCD8C1;
 
@@ -41,6 +41,7 @@ body {
   padding: 4em;
   font-size: 18px;
   text-align: center;
+  background-color: #70A1D7;
 }
 img {
   display: block;
