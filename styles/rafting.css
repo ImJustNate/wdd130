@@ -5,13 +5,13 @@ Fonts are separated by a & */
 @import url('https://fonts.googleapis.com/css2?family=Lemon&family=Montserrat&display=swap');
 
 /* color palet!
-https://coolors.co/70a1d7-7a0047-00241b-bcd8c1-fed766 
+https://coolors.co/70a1d7-3d0024-00241b-bcd8c1-fed766
 */
 
 
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #7A0047  ;
+  --primary-color: #3D0024  ;
   --secondary-color: #70A1D7 ;
   --accent1-color: #00241B;
   --accent2-color: #BCD8C1;
@@ -21,9 +21,9 @@ https://coolors.co/70a1d7-7a0047-00241b-bcd8c1-fed766
   --paragraph-font: Montserrat, Helvetica, sans-serif;
 
   /* these colors below should be chosen from among your palette colors above */
-  --headline-color-on-white: #7A0047;  /* headlines on a white background */ 
+  --headline-color-on-white: #3D0024;  /* headlines on a white background */ 
   --headline-color-on-color: #BCD8C1; /* headlines on a colored background */ 
-  --paragraph-color-on-white: #7A0047; /* paragraph text on a white background */ 
+  --paragraph-color-on-white: #3D0024; /* paragraph text on a white background */ 
   --paragraph-color-on-color: #BCD8C1; /* paragraph text on a colored background */ 
   --paragraph-background-color: #00241B  ;
   --nav-link-color: #396E94;
