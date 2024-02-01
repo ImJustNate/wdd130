@@ -1,0 +1,33 @@
+h1{
+    font-size: 2em;
+}
+p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.paraone{
+    font-size: 3em;
+    text-align: center;
+    background-color: blue;
+    color: white;
+}
+img {
+    width: 80px;
+    display: float;
+    float: right;
+    padding: 15px;
+}
+section{
+    background-color: lightgray;
+    color: purple;
+    border: solid 2px;
+    border-color: black;
+    border-radius: 1em;
+    margin: 50px;
+}
+.hoduk{
+    color: orange;
+    display: flex;
+}
