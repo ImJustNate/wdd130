@@ -6,23 +6,27 @@ body{
 }
 
 header img{
-  padding: 30px;
-  width: 120px;
+  margin-top: 30px;
+  margin-left: 15px;
+  width: 250px;
 }
 
 header p {
+  display: flex;
   float: right;
-  padding: 30px;
+  font-size: larger;
+  margin-top: 40px;
+  margin-right: 50px;
 }
 
 header {
-  height: 60px;
+  height: 30px;
 }
 
 main {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 200px 1fr 1fr;
+    grid-template-rows: 150px 1fr 1fr;
     text-align: center;
     align-items: center;
     margin-top: 60px;
@@ -31,10 +35,14 @@ main {
 .plane {
     background-color: #001B36;
     padding: 0;
-    margin: -10px;
-    height: 160px;
+    margin-top: 40px;
     justify-content: center;
     align-items: center;
+    height: 100px;
+}
+.plane img{
+  height: 96px;
+  margin: auto;
 }
 
 .ticket {
@@ -44,8 +52,8 @@ main {
   background-color: #fefffd;
   justify-content: center;
   align-items: center;
-  width: 600px;
-  height: 800px;
+  width: 500px;
+  /* height: 800px; */
   border-radius: 30px;
   margin: 0 auto;
   box-shadow: 2px 2px 2px 2px grey;
@@ -57,16 +65,22 @@ main {
 }
 
 .footer img {
-  width: 500px;
+  width: 200px;
   padding-top: 20px;
-  padding-bottom: 20px;
+  /* padding-bottom: 20px; */
+}
+h1{
+  line-height: .2cm;
+}
+h4{
+  line-height: .2cm;
 }
 
 h3{
-    color: #bb2828;
-    font-size: .9em;
-    margin: 0;    
-    margin-top: 10px;
+  color:#001B36;
+  font-size: .9em;
+  margin: 0;    
+  margin-top: 10px;
 }
 h2{
   font-family: arial;
@@ -81,19 +95,16 @@ header p {
 .three{
     background-color: #001B36;
     color:white;
-    height: 160px;
+    height: 100px;
+    margin-top: 40px;
 }
   .one{
     background-color: #001B36;
     color: white;
-    height: 160px;
+    height: 100px;
+    margin-top: 40px;
 }
 .four, .five, .six, .seven, .eight, .nine {
   background-color: lightgray;
-  margin-top: -20px;
-  height: 120px;
-}
-
-h3{
-    color:#001B36;
+  height: 100px;
 }
