@@ -16,7 +16,7 @@ nav a {
 }
 
 nav a:hover{
-    background-color: #BCD8C1;
+    background-color: #6f7364;
     color: #3D0024 ;
 }
 #hero{
@@ -248,4 +248,155 @@ main section img {
         margin-top: 25px;
     }
 }
-            
+   
+
+
+/* rivers page */
+
+.bold{
+    font-weight: 1000;
+}
+.river{
+    text-align: center;
+    font-size: 4em;
+    color: #3D0024;
+    margin-bottom: 10%;
+}
+.info_grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 6em 12em 6em 200px 6em 12em 6em 200px 6em 12em 6em 200px 6em 12em 5em;
+    margin: auto;
+    margin-top: 150px;
+}
+
+.three_gc_img{
+    grid-column: 2/6;
+    width: 100%;
+    box-shadow: 5px 5px 10px #3D0024;
+}
+
+.three_grand_canyon_trip_dates{
+    grid-column: 5/9;
+    grid-row: 2/3;
+    line-height: .1em;
+    justify-content: center;
+    align-content: center;
+    background-color: #BCD8C1;
+    box-shadow: 5px 5px 10px #3D0024;
+    border-radius: 5px;
+}
+
+.three_grand_canyon_trip_dates h2{
+    padding: 10px;
+    padding-left: 3px;
+    font-size: 2em;
+    margin-top: 2%;
+    margin-bottom: 6%;
+}
+.three_grand_canyon_trip_dates p{
+    padding-left: 3%;
+    font-size: 1em;
+}
+
+
+.six_gc_img{
+    grid-column: 2/6;
+    grid-row: 5/8;
+    width: 100%;
+    box-shadow: 5px 5px 10px #3D0024;
+}
+
+.six_grand_canyon_trip_dates{
+    grid-column: 5/9;
+    grid-row: 6/7;
+    line-height: .1em;
+    justify-content: center;
+    align-content: center;
+    background-color: #BCD8C1;
+    box-shadow: 5px 5px 10px #3D0024;
+    border-radius: 5px;
+}
+
+.six_grand_canyon_trip_dates h2{
+    padding: 10px;
+    padding-left: 3px;
+    font-size: 2em;
+    margin-top: 2%;
+    margin-bottom: 6%;
+}
+.six_grand_canyon_trip_dates p{
+    padding-left: 3%;
+    font-size: 1em;
+}
+
+.sr_img{
+    grid-column: 2/6;
+    grid-row: 9/12;
+    width: 100%;
+    box-shadow: 5px 5px 10px #3D0024;
+}
+.salmon_river_trip_dates{
+    grid-column: 5/9;
+    grid-row: 10/11;
+    line-height: .1em;
+    justify-content: center;
+    align-content: center;
+    background-color: #BCD8C1;
+    box-shadow: 5px 5px 10px #3D0024;
+    border-radius: 5px;
+}
+
+.salmon_river_trip_dates h2{
+    padding: 10px;
+    padding-left: 3px;
+    font-size: 2em;
+    margin-top: 2%;
+    margin-bottom: 6%;
+}
+
+.salmon_river_trip_dates p{
+    padding-left: 3%;
+    font-size: 1em;
+}
+
+.deso_img{
+    grid-column: 2/6;
+    grid-row: 13/16;
+    width: 100%;
+    box-shadow: 5px 5px 10px #3D0024;
+}
+.desolation_trip_dates{
+    grid-column: 5/9;
+    grid-row: 14/15;
+    line-height: .1em;
+    justify-content: center;
+    align-content: center;
+    background-color: #BCD8C1;
+    box-shadow: 5px 5px 10px #3D0024;
+    border-radius: 5px;
+}
+
+.desolation_trip_dates h2{
+    padding: 10px;
+    padding-left: 0;
+    font-size: 2em;
+    margin-top: 5%;
+    margin-bottom: 6%;
+}
+
+.desolation_trip_dates p{
+    padding-left: 3%;
+    font-size: 1em;
+}
+
+.gc_img{
+    width: 70%;
+    margin-left: 25%;
+}
+/* .card_grey{
+    display:flex;
+    background-color: #6f7364;
+    height: 20em;
+    grid-row: 4/5;
+} */
