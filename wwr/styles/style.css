@@ -40,12 +40,12 @@ nav a:hover{
 #hero-msg h1{
     text-align: center;
     font-family: lemon;
-    color: #BCD8C1;
+    color: #DCF8E1;
 }
 
 #hero-msg h4{
     text-align: center;
-    color: #BCD8C1;
+    color: #DCF8E1;
 }
 
 .button-box{
@@ -62,13 +62,13 @@ main section{
 
 #background{
     height: 725px;
-    background-color: #BCD8C1;
+    background-color: #DCF8E1;
     grid-column: 1/11;
     grid-row: 4/9;
 }
 
 body{
-    background-color: #BCD8C1;
+    background-color: #DCF8E1;
     font-family: Montserrat;
     margin: 0;
     padding: 0;
@@ -77,13 +77,13 @@ h2{
     margin: 0;
 }
 header{
-    background-color: #BCD8C1;
+    background-color: #DCF8E1;
     font-family: Montserrat;
     display: grid;
     grid-template-columns: 150px auto;
 }
 .book{
-    background-color: #BCD8C1;
+    background-color: #DCF8E1;
     text-decoration: none;
     color: #00241B;
     font-size: 18px;
@@ -91,7 +91,7 @@ header{
     border-radius: 5px;
 }
 .join{
-    background-color: #BCD8C1;
+    background-color: #DCF8E1;
     text-decoration: none;
     padding: 15px 30px;
     margin-top: 50px;
@@ -103,16 +103,16 @@ header{
     padding-top: 10px;
 }
 .book:hover{
-    background-color: #BCD8C1;
+    background-color: #DCF8E1;
     color: #3D0024;
 }
 .join:hover{
-    background-color: #BCD8C1;
+    background-color: #DCF8E1;
     color: #3D0024;
 }
 
 .msg{
-    background-color: #BCD8C1;
+    background-color: #DCF8E1;
     line-height: 1.5em;
     padding: 35px;
     grid-column: 6/10;
@@ -120,7 +120,7 @@ header{
     box-shadow: 5px 5px 10px #3D0024;
 }
 footer{
-    background-color: #BCD8C1;
+    background-color: #DCF8E1;
     padding: 25px 50px;
     margin-top: 200px;
     display: flex;
@@ -282,7 +282,7 @@ main section img {
     line-height: .1em;
     justify-content: center;
     align-content: center;
-    background-color: #BCD8C1;
+    background-color: #DCF8E1;
     box-shadow: 5px 5px 10px #3D0024;
     border-radius: 5px;
 }
@@ -313,7 +313,7 @@ main section img {
     line-height: .1em;
     justify-content: center;
     align-content: center;
-    background-color: #BCD8C1;
+    background-color: #DCF8E1;
     box-shadow: 5px 5px 10px #3D0024;
     border-radius: 5px;
 }
@@ -342,7 +342,7 @@ main section img {
     line-height: .1em;
     justify-content: center;
     align-content: center;
-    background-color: #BCD8C1;
+    background-color: #DCF8E1;
     box-shadow: 5px 5px 10px #3D0024;
     border-radius: 5px;
 }
@@ -372,7 +372,7 @@ main section img {
     line-height: .1em;
     justify-content: center;
     align-content: center;
-    background-color: #BCD8C1;
+    background-color: #DCF8E1;
     box-shadow: 5px 5px 10px #3D0024;
     border-radius: 5px;
 }
