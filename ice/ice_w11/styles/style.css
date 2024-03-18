@@ -1,0 +1,58 @@
+.profile{
+    display: inline-block;
+    width: 50px;
+    border-radius: 50px;
+    justify-self: center;
+    align-self: center;
+}
+body{
+    background-color: gainsboro;
+}
+header{
+    display: grid;
+    grid-template-columns: 60px 200px auto 100px 50px;
+    background-color: white;
+    width: 620px;
+}
+h4{
+    grid-column: 4/5;
+    align-self: center;
+}
+.main_img{
+    width: 620px;
+}
+.material-symbols-outlined {
+    justify-self: center;
+    align-self: center;
+  font-variation-settings:
+  'FILL' 1,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+.empty1 .material-symbols-outlined {
+      font-variation-settings:
+      'FILL' 0,
+      'wght' 400,
+      'GRAD' 0,
+      'opsz' 24
+}
+.empty2 .material-symbols-outlined {
+      font-variation-settings:
+      'FILL' 0,
+      'wght' 400,
+      'GRAD' 0,
+      'opsz' 24
+}
+.empty2{
+    grid-column: 5/6;
+    justify-self: center;
+    line-height: 0;
+    align-self: center;
+}
+
+footer{
+    display: grid;
+    grid-template-columns: 50px 50px 100px auto 100px;
+    width: 620px;
+}
