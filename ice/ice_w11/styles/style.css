@@ -7,16 +7,22 @@
 }
 body{
     background-color: gainsboro;
+    color: gray;
 }
 header{
     display: grid;
     grid-template-columns: 60px 200px auto 100px 50px;
     background-color: white;
     width: 620px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 h4{
     grid-column: 4/5;
     align-self: center;
+}
+h1{
+    color: #444444;
 }
 .main_img{
     width: 620px;
@@ -24,6 +30,7 @@ h4{
 .material-symbols-outlined {
     justify-self: center;
     align-self: center;
+    color: gray;
   font-variation-settings:
   'FILL' 1,
   'wght' 400,
@@ -49,10 +56,25 @@ h4{
     justify-self: center;
     line-height: 0;
     align-self: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
-
+.empty1{
+    align-self: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+h2{
+    align-self: center;
+}
+h3{
+    align-self: center;
+}
 footer{
     display: grid;
     grid-template-columns: 50px 50px 100px auto 100px;
     width: 620px;
+    background-color: white;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
