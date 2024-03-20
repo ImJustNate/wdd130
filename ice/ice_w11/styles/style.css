@@ -26,6 +26,7 @@ h1{
 }
 .main_img{
     width: 620px;
+    background-color: white;
 }
 .material-symbols-outlined {
     justify-self: center;
