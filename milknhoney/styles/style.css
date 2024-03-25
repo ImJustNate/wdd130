@@ -14,7 +14,7 @@
 }
 header {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     /* color: white;
     background-color: #2D3047; */
     text-align: center;
@@ -29,14 +29,21 @@ header {
 header a {
     text-align: center;
     color: white;
+    background-color: #2D3047;
     text-decoration: none;
     padding: 20px;
-    background-color: #2D3047;
+    align-self: center;
+    padding: 12%;
 }
-
-nav a:hover{
+header a:hover{
     background-color: white;
-    color: #2D3047 ;
+    color: #2D3047;
+    border-left: #2D3047 2px solid;
+}
+header img{
+    width: 100%;
+    background-color: #2D3047;
+    height: 100%;
 }
 body{
     background-color: #588157;
@@ -48,6 +55,7 @@ body{
     margin-right: auto;
     border-left: #2D3047 2px solid;
     border-right: #2D3047 2px solid;
+    border-top: #2D3047 2px solid;
 }
 .cows{
     display: grid;
@@ -56,14 +64,15 @@ body{
     margin-left: auto;
     margin-right: auto;
     background-color: white;
-    border: #2D3047 2px solid;
-    border-top: white 2px solid;
+    border-left: #2D3047 2px solid;
+    border-right: #2D3047 2px solid;
+    border-bottom: #2D3047 2px solid;
 }
 .cows img{
     margin-top: 25px;
     margin-bottom: 25px;
     width: 80%;
-    border: #2D3047 2px solid;
+    border: #588157 2px solid;
 }
 .cows img:nth-of-type(2){
     margin-right: 20%;
@@ -75,8 +84,9 @@ body{
     display: block;
     height: 40%;
     width: 60%;
-    background-color: #2AB7CA;
-    border: #2D3047 2px solid;
+    background-color: #2D3047;
+    color: white;
+    border:#588157 2px solid;
 
     z-index: 0;
     align-self: left;
@@ -92,7 +102,8 @@ body{
     margin-left: -10%;
 }
 .home_p{
-    display: block;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     background-color: white;
     border-left: #2D3047 2px solid;
     border-right: #2D3047 2px solid;
@@ -101,8 +112,30 @@ body{
     width: 80%;
     margin-left: auto;
     margin-right: auto;
-    text-align: center;
-    font-size: small;
+    text-align: left;
+}
+.home_p p:nth-of-type(1){
+    padding: 10%;
+}
+.on_farm{
+    line-height: .5cm;
+    padding: 10%;
+}
+.on_farm h3{
+    line-height: 0;
+    padding-bottom: 0;
+}
+i{
+    color: #2AB7CA;
+    font-style: normal;
+    font-weight:bold;
+}
+.on_farm lu{
+    padding-left: 5%;
+    align-self: center;
+}
+.on_farm lu .material-symbols-outlined{
+    align-items: center;
 }
 footer{
     text-align: center;
