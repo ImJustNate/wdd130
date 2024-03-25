@@ -1,14 +1,14 @@
-/* 
+
 @import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 :root {
-  /* change the values below to your colors from your palette *//* 
+  /* change the values below to your colors from your palette */
   --primary-color: #2D3047;
   --secondary-color: #588157 ;
   --accent1-color: #2AB7CA;
   --accent2-color: white;
 
-  /* change the values below to your chosen font(s) *//* 
+  /* change the values below to your chosen font(s) */
   --heading-font: "Courier+Prime";
   --paragraph-font: "Montserrat", Helvetica, sans-serif;
 }
@@ -16,7 +16,7 @@ header {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     /* color: white;
-    background-color: #2D3047; *//* 
+    background-color: #2D3047; */
     text-align: center;
     width: 80%;
     margin-left: auto;
@@ -241,4 +241,4 @@ footer{
 }
 main{
     color: #2D3047;
-} */
+}
