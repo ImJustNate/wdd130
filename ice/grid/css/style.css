@@ -1,0 +1,42 @@
+body{
+    background-color: #6B0F1A;
+}
+
+.food{
+    background-color: #7D7461;
+    grid-row: 1/3;
+}
+
+.favcolor{
+    background-color: #048A81;
+}
+.time{
+    background-color: #171D1C;
+    grid-row: 1;
+}
+.time div{
+    background-color: #048A81;
+}
+section{
+    padding: 30px;
+    font-size: 0.5cm;
+    color: #BFCDE0;
+}
+footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+div{
+    background-color: #048A81;
+    border: #171D1C 3px solid;
+    font-size: .5cm;
+}
+.big{
+    grid-column: 1/-1;
+    padding: 0cap;
+}
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* max-width: 1600px; */
+}
