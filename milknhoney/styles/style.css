@@ -15,8 +15,7 @@
 header {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    /* color: white;
-    background-color: #2D3047; */
+    background-color: #2D3047;
     text-align: center;
     width: 80%;
     margin-left: auto;
@@ -57,6 +56,24 @@ body{
     border-right: #2D3047 2px solid;
     border-top: #2D3047 2px solid;
 }
+.parallax {
+    /* The image used */
+    background-image: url("/wdd130/milknhoney/images/home_page_with_snow.jpg");
+    background-color: #2D3047;
+  
+    /* Set a specific height */
+    min-height: 800px;
+    /* size and place correction */
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 .cows{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -122,6 +139,8 @@ body{
     line-height: .9cm;
     padding: 10%;
     font-size: .8cm;
+    border-left: 6px solid #2D3047;
+    height: 150px;
 }
 .on_farm h3{
     line-height: 0;
