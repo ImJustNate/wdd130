@@ -63,10 +63,16 @@ body{
   
     /* Set a specific height */
     min-height: 800px;
+
     /* size and place correction */
     width: 80%;
     margin-left: auto;
     margin-right: auto;
+
+    /* borders */
+    border-left: #2D3047 2px solid;
+    border-right: #2D3047 2px solid;
+    border-top: #2D3047 2px solid;
   
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -110,6 +116,7 @@ body{
     text-align: center;
     font-size: 800%;
     justify-content: center;
+    align-content: center;
 }
 .home_txt:nth-of-type(2){
     justify-self: right;
