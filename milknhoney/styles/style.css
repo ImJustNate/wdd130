@@ -342,7 +342,7 @@ main{
 h6{
     grid-column: 3/9;
     grid-row: 17;
-    height: 150%;
+    height: 120%;
     font-size: x-large;
     color: white;
     background-color: #2D3047;
