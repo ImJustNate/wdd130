@@ -174,7 +174,7 @@ footer{
 .meet_the_milkers{
     display: grid;
     grid-template-columns: repeat(10, 1fr);
-    grid-template-rows: repeat(22, 100px);
+    grid-template-rows: repeat(22, 120px);
 
     width: 80%;
     margin-left: auto;
@@ -183,8 +183,9 @@ footer{
     border: #2D3047 2px solid;
 }
 .meet_the_milkers img{
-    height: 100%;
-    border: #2D3047 2px solid;
+    width: 110%;
+    border: #588157 2px solid;
+    box-sizing: border-box;
 }
 .meet_the_milkers h3{
     grid-column: 1/-1;
@@ -196,26 +197,28 @@ footer{
     color: #2AB7CA;
 }
 .meet_the_milkers p{
-    border: #2D3047 2px solid;
-    background-color: #2AB7CA;
-    font-size: 1.481em;
+    border: #588157 2px solid;
+    background-color: #2D3047;
+    color: white;
+    font-size: 1.7em;
+    /* width: 120%; */
 }
 .meet_the_milkers img:nth-of-type(1){
     grid-row: 3/6;
-    grid-column: 3/7;
+    grid-column: 3/6;
     margin-left: -10%;
 }
 .meet_the_milkers p:nth-of-type(1){
     grid-row: 4/6;
-    grid-column: 5/9;
+    grid-column: 6/9;
     margin-top: -10%;
     margin-bottom: 10%;
-    margin-left: 10%;
-    padding-left: 4px;
+    margin-left: -10%;
+    padding: 15px;
 }
 .meet_the_milkers img:nth-of-type(2){
     grid-row: 7/10;
-    grid-column: 5/9;
+    grid-column: 6/9;
     justify-self: right;
 }
 .meet_the_milkers p:nth-of-type(2){
@@ -224,25 +227,25 @@ footer{
     margin-top: -10%;
     margin-left: -10%;
     margin-bottom: 17%;
-    padding-left: 4px;
     z-index: 0;
+    padding: 15px;
 }
-.meet_the_milkers img:nth-of-type(3){
+.third{
     grid-row: 11/14;
-    grid-column: 3/7;
+    grid-column: 3/6;
     margin-left: -10%;
-}
+} 
 .meet_the_milkers p:nth-of-type(3){
     grid-row: 12/13;
-    grid-column: 5/9;
+    grid-column: 6/9;
     margin-top: -10%;
     margin-bottom: 0;
-    margin-left: 10%;
-    padding-left: 4px;
+    margin-left: -10%;
+    padding: 15px;
 }
 .meet_the_milkers img:nth-of-type(4){
     grid-row: 15/18;
-    grid-column: 5/9;
+    grid-column: 6/9;
     justify-self: right;
 }
 .meet_the_milkers p:nth-of-type(4){
@@ -251,13 +254,12 @@ footer{
     margin-top: -10%;
     margin-left: -10%;
     margin-bottom: 17%;
-    padding-left: 4px;
     z-index: 0;
-    font-size: 1.22em;
+    padding: 15px;
 }
 .meet_the_milkers img:nth-of-type(5){
     grid-row: 19/22;
-    grid-column: 3/7;
+    grid-column: 3/6;
     margin-left: -10%;
 }
 .meet_the_milkers p:nth-of-type(5){
@@ -265,8 +267,95 @@ footer{
     grid-column: 5/9;
     margin-top: -1%;
     margin-left: 10%;
-    padding-left: 4px;
+    padding: 15px;
 }
 main{
     color: #2D3047;
+}
+.meet_the_milk{
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(20, 120px);
+
+
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    border: #2D3047 2px solid;
+}
+.meet_the_milk img{
+    width: 110%;
+    border: #588157 2px solid;
+    box-sizing: border-box;
+}
+.meet_the_milk h3{
+    grid-column: 1/-1;
+    grid-row: 1/3;
+    text-align: center;
+    font-size: 5em;
+    line-height: 0;
+    margin-top: 5%;
+    color: #2AB7CA;
+}
+.meet_the_milk p{
+    border: #588157 2px solid;
+    background-color: #2D3047;
+    color: white;
+    font-size: 1.7em;
+    /* width: 120%; */
+}
+.meet_the_milk img:nth-of-type(1){
+    grid-row: 3/6;
+    grid-column: 3/6;
+    margin-left: -10%;
+}
+.meet_the_milk p:nth-of-type(1){
+    grid-row: 4/6;
+    grid-column: 6/9;
+    margin-top: -10%;
+    margin-bottom: 10%;
+    margin-left: -10%;
+    padding: 15px;
+}
+.meet_the_milk img:nth-of-type(2){
+    grid-row: 7/10;
+    grid-column: 6/9;
+    justify-self: right;
+}
+.meet_the_milk p:nth-of-type(2){
+    grid-row: 8/10;
+    grid-column: 3/6;
+    margin-top: -10%;
+    margin-left: -10%;
+    margin-bottom: 17%;
+    z-index: 0;
+    padding: 15px;
+}
+.long{
+    height: 100%;
+}
+.bottom_hero{
+    grid-column: 2/9;
+    grid-row: 11;
+}
+h6{
+    grid-column: 3/9;
+    grid-row: 17;
+    height: 150%;
+    font-size: x-large;
+    color: white;
+    background-color: #2D3047;
+    border: #588157 2px solid;
+    padding: 15px;
+}
+h5{
+    grid-column: 2/10;
+    grid-row: 20;
+    height: 60px;
+    font-size: x-large;
+    color: #2D3047;
+    border: #2D3047 2px solid;
+    padding: 15px;
+    margin-top: 0;
 }
