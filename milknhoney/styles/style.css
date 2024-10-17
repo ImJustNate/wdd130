@@ -4,8 +4,8 @@
 :root {
   /* change the values below to your colors from your palette */
   --primary-color: #2D3047;
-  --secondary-color: #588157 ;
-  --accent1-color: #2AB7CA;
+  --secondary-color: #3A553A ;
+  --accent1-color: #D3F1F8;
   --accent2-color: white;
 
   /* change the values below to your chosen font(s) */
@@ -27,7 +27,7 @@ header {
 }
 header a {
     text-align: center;
-    color: white;
+    color: #D3F1F8;
     background-color: #2D3047;
     text-decoration: none;
     padding: 20px;
@@ -45,7 +45,7 @@ header img{
     height: 100%;
 }
 body{
-    background-color: #588157;
+    background-color: #3A553A;
 }
 #eyecatcher{
     display: block;
@@ -95,7 +95,7 @@ body{
     margin-top: 25px;
     margin-bottom: 25px;
     width: 80%;
-    border: #588157 2px solid;
+    border: #3A553A 2px solid;
 }
 .cows img:nth-of-type(2){
     margin-right: 20%;
@@ -108,8 +108,8 @@ body{
     height: 40%;
     width: 60%;
     background-color: #2D3047;
-    color: white;
-    border:#588157 2px solid;
+    color: #D3F1F8;
+    border:#3A553A 2px solid;
 
     z-index: 0;
     align-self: left;
@@ -154,7 +154,7 @@ body{
     padding-bottom: 0;
 }
 i{
-    color: #2AB7CA;
+    color: #3B5E3F;
     font-style: normal;
     font-weight:bold;
 }
@@ -167,7 +167,7 @@ i{
 }
 footer{
     text-align: center;
-    color: #2AB7CA;
+    color: #D3F1F8;
     font-size: 2em;
     height: 25px;
 }
@@ -184,7 +184,7 @@ footer{
 }
 .meet_the_milkers img{
     width: 110%;
-    border: #588157 2px solid;
+    border: #3A553A 2px solid;
     box-sizing: border-box;
 }
 .meet_the_milkers h3{
@@ -194,12 +194,12 @@ footer{
     font-size: 5em;
     line-height: 0;
     margin-top: 5%;
-    color: #2AB7CA;
+    color: #3B5E3F;
 }
 .meet_the_milkers p{
-    border: #588157 2px solid;
+    border: #3A553A 2px solid;
     background-color: #2D3047;
-    color: white;
+   color: #D3F1F8;
     font-size: 1.7em;
     /* width: 120%; */
 }
@@ -286,7 +286,7 @@ main{
 }
 .meet_the_milk img{
     width: 110%;
-    border: #588157 2px solid;
+    border: #3A553A 2px solid;
     box-sizing: border-box;
 }
 .meet_the_milk h3{
@@ -296,12 +296,12 @@ main{
     font-size: 5em;
     line-height: 0;
     margin-top: 5%;
-    color: #2AB7CA;
+    color: #3B5E3F;
 }
 .meet_the_milk p{
-    border: #588157 2px solid;
+    border: #3A553A 2px solid;
     background-color: #2D3047;
-    color: white;
+   color: #D3F1F8;
     font-size: 1.7em;
     /* width: 120%; */
 }
@@ -344,9 +344,9 @@ h6{
     grid-row: 17;
     height: 120%;
     font-size: x-large;
-    color: white;
+   color: #D3F1F8;
     background-color: #2D3047;
-    border: #588157 2px solid;
+    border: #3A553A 2px solid;
     padding: 15px;
 }
 h5{
